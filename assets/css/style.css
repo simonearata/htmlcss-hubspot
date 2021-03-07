@@ -1,0 +1,150 @@
+/* GLOBAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 100%;
+  min-width: 1200px;
+  padding: 0 10%;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #33475b;
+}
+
+.float-left{
+  float: left;
+}
+
+.wv-50{
+  width: 50%;
+}
+
+/* BOTTONI */
+.btn{
+  display: inline-block;
+  border-radius: 5px;
+  line-height: 20px;
+  padding: 5px 10px;
+  color: white;
+  font-size: 80%;
+}
+
+.btn.btn-orange{
+  color: white;
+  border: 1px solid #fe775a;
+  background-color: #fe775a;
+}
+
+.btn.btn-white{
+  border: 1px solid #fe775a;
+  color: #fe775a;
+  background-color: white;
+}
+
+.btn.btn-xxl{
+  padding: 15px 35px;
+}
+/* MENU FIXED */
+nav{
+  height: 80px;
+  line-height: 80px;
+  position: fixed;
+  background-color: #f4f9fd;
+  border-bottom: 1px solid #384f60;
+}
+
+.nav-right{
+  text-align: right;
+}
+
+.menu{
+  list-style: none;
+}
+
+.menu li{
+  display: inline;
+  padding: 0 10px;
+}
+
+.menu li a{
+  color: #435869;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.menu-fixed li .border-r{
+  border-right: 1px solid #435869;
+  padding-right: 20px;
+}
+
+#pad-0{
+  padding-left: 0px;
+}
+
+.fas.fa-search{
+  color: #03a6be;
+}
+
+.fas{
+  padding: 0 5px;
+}
+
+.spazio-menu-fixed{
+  height: 80px;
+}
+
+/* MENU FISSO */
+.menu-principale{
+  height: 80px;
+  line-height: 80px;
+  background-color: white;
+}
+
+.logo{
+  margin-top: 10px;
+}
+.menu-principale .menu{
+  text-align: right;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+  position: relative;
+  height: 612px;
+  background-image: url(../img/jumbotron.png);
+  background-position: 104% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-text{
+}
+
+.jumbotron-text h1{
+  font-size: 250%;
+  padding: 30px 0;
+}
+
+.jumbotron-text p{
+  line-height: 25px;
+}
+
+.jumbotron-text .btn{
+ margin: 30px 0;
+}
+
+.info{
+  font-size: 70%;
+}
