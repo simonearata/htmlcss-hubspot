@@ -179,6 +179,7 @@ nav{
   height: 612px;
   background-image: url(../img/jumbotron.png);
   background-position: 104% 0;
+  background-size: 1200px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -214,7 +215,6 @@ nav{
 
 /* PARTE SUPERIORE */
 #prima-sezione{
-  height: 1500px;
   background-color: #f4f9fd;
   position: relative;
   padding-bottom: 90px;
@@ -225,12 +225,7 @@ nav{
 }
 
 .part-sup{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
-  width: 70%;
 }
 
 .part-sup img{
@@ -389,8 +384,12 @@ background-image: url(../img/buble.svg);
   height: 150px;
   text-align: center;
   color: white;
+  position: relative;
 }
 
+.quad span{
+  display: block;
+}
 .quad img{
   padding-top: 15px;
 }
@@ -402,12 +401,10 @@ background-image: url(../img/buble.svg);
   line-height: 60px;
 }
 
-/* .quad::after{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  content: '002B';
-} */
+.quad span::after{
+  content: '\002B';
+  font-size: 37px;
+}
 
 .bx1, .bx2, .bx3{
   border-right: 1px solid white;
@@ -456,20 +453,8 @@ background-image: url(../img/buble.svg);
   vertical-align: middle;
 }
 
-.box-logo1{
-  height: 15px;
-}
-
-.box-logo2{
-  height: 15px;
-}
-
-.box-logo3{
-  height: 30px;
-}
-
-.box-logo4{
-  height: 30px;
+.box-logo{
+  width: 20%;
 }
 
 .bx-img img{
